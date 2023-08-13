@@ -152,6 +152,11 @@ body {
 
 .header ul li {
     width: 306px;
+
+    a {
+        text-decoration: none;
+        color: #ffffff;
+    }
 }
 
 .intro {
@@ -274,8 +279,12 @@ body {
     background: #000;
 }
 
-.color-white {
+.text-white {
     color: white;
+}
+
+.text-black {
+    color: black;
 }
 
 .d-block {
@@ -323,6 +332,10 @@ body {
 
 .green {
     color: #00FFA3;
+}
+
+.gap16 {
+    gap: 16px;
 }
 
 .gap24 {

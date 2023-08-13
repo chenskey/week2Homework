@@ -152,6 +152,10 @@ body {
 .header ul li {
   width: 306px;
 }
+.header ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
 
 .intro {
   background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week2/background-img.png");
@@ -252,8 +256,12 @@ body {
   background: #000;
 }
 
-.color-white {
+.text-white {
   color: white;
+}
+
+.text-black {
+  color: black;
 }
 
 .d-block {
@@ -301,6 +309,10 @@ body {
 
 .green {
   color: #00FFA3;
+}
+
+.gap16 {
+  gap: 16px;
 }
 
 .gap24 {
